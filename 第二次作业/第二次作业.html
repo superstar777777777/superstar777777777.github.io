@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>高考志愿表</title>
+		<style type="text/css">
+		table td,th{border:1px solid #000;}
+		table{  border-collapse:collapse;}
+		</style>
+	</head>
+	<body>
+		<table cellpadding="10" cellspacing="0">
+			<tbody>
+				<tr>
+					<th>姓名</th>
+					<th>年龄</th>
+					<th>身高（cm）</th>
+					<th>体重（kg）</th>
+					<th>考号</th>
+					<th>身份证号</th>
+					<th>第一志愿</th>
+					<th>第二志愿</th>
+					<th>第三志愿</th>
+					<th>民族</th>
+				</tr>
+				<tr>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+					<td>
+						<form action="save.php" method="post" >
+						    <select>
+						      <option value="汉族" selected="selected">汉族</option>
+						      <option value="壮族">壮族</option>
+						      <option value="回族">回族</option>
+						      <option value="其他少数民族">其他少数民族</option>
+						    </select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<form action="save.php" method="post" >
+							<label>性别:</label>
+							<label>男</label>
+							<input type="radio" value="1"  name="gender" />
+							<label>女</label>
+							<input type="radio" value="2"  name="gender" /><br>
+							<label for="username">用户名:</label>
+							<input type="text"  name="username" id="username" value="" />
+							<label for="pass">密码:</label>
+							<input type="password"  name="pass" id="pass" value="" />    
+							<input type="submit" value="确定"  name="submit" />
+							<input type="reset" value="重置" name="reset" />
+						</form>
+					</td>
+					<td colspan="9">
+						<h1>本人照片</h1>
+						<img src="timg.jfif" height="600" width="700" />
+						
+					</td>
+					
+				</tr>
+				
+			</tbody>
+		</table>
+		
+	</body>
+	
+</html>
