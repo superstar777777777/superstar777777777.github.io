@@ -1,0 +1,174 @@
+@media screen and (max-width :1000px) {
+	* {
+		margin: 0;
+		font-family: "microsoft yahei";
+		padding: 0;
+	}
+
+	html,
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		overflow: hidden;
+		width: 100%;
+
+	}
+
+	.box {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 0;
+	}
+
+	.box1 {
+		display: flex;
+		background: url(../img/g_banner_background.png);
+		background-size: 100% 100%;
+		flex-wrap: wrap;
+		align-content: space-around;
+		order: 1;
+		width: 100%;
+		height: 70%;
+
+	}
+
+	.box1_top {
+		display: flex;
+	}
+
+	.box1_top_1 {
+		color: white;
+		font-size: 25px;
+		margin-left: 0;
+	}
+
+	.box1_top_1_0 {
+		height: 50px;
+		padding: ;
+		line-height: 50px;
+		color: gainsboro;
+		cursor: pointer;
+		display:none;
+	}
+
+	.box1_top_1_0:hover {
+		color: #FF0000;
+		text-decoration: underline;
+	}
+
+	.box1_top_1_img {
+		vertical-align: middle;
+		
+	}
+
+	.box1_top_2 {
+		font-size: 30px;
+		color: #FFFFFF;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 200px;
+
+	}
+
+	.box1_top_2_ul {
+		list-style-type: none;
+
+	}
+
+	.box1_top_phone {
+		margin: 0;
+
+	}
+
+	.box1_top_2_ul_111 {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	.box1_top_2_ul_111_span {
+		width: 150px;
+		line-height: 30px;
+		font-size: 20px;
+		color: #fff;
+		background: #fb6c6d;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	.box1_top_2_ul_margin {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.box1_top_2_ul_222 {
+
+		width: 300px;
+		line-height: 100px;
+		font-size: 30px;
+		color: #fff;
+		background: #fb6c6d;
+		text-align: center;
+		border-radius: 20px;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.box1_top_2_ul_222:hover {
+		color: red;
+	}
+
+	.box1_top_2_ul_333 {
+		display: inline-block;
+		line-height: 100px;
+		margin-left: 30px;
+		display: none;
+	}
+
+	.box1_top_2_ul_333_img {
+		height: 100px;
+		width: 100px;
+		vertical-align: middle;
+
+	}
+
+	.box1_top_2_ul_444 {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.box2 {
+		display: flex;
+		background: white;
+		background-size: 100% 100%;
+		height: 30%;
+		order: 2;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box2_1 {
+		display: inline-block;
+		margin: 35px;
+	}
+
+	.footer {
+		width: 100%;
+		background: ghostwhite;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		font-size: 15px;
+		color: gainsboro;
+	}
+
+}
