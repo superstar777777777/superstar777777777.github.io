@@ -17,7 +17,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	flex-wrap: wrap;
 
 }
 
@@ -29,7 +28,7 @@ body {
 	align-content: space-around;
 	order: 1;
 	width: 100%;
-	height: 70%;
+	height:650px;
 
 }
 
@@ -52,11 +51,12 @@ body {
 	line-height: 50px;
 	color: brown;
 	cursor: pointer;
+	transition:all .4s;
 }
 
 .box1_top_1_0:hover {
 	color: #FF0000;
-	text-decoration: underline;
+	transform: scale(1.2);
 }
 
 .box1_top_1_img {
@@ -82,7 +82,7 @@ body {
 .box1_top_phone {
 	max-height: 500px;
 	margin-right: 100px;
-
+	border-radius:20% ;
 }
 
 .box1_top_2_ul_111 {
@@ -144,7 +144,7 @@ body {
 	display: flex;
 	background: white;
 	background-size: 100% 100%;
-	height: 30%;
+	height: 350px;
 	order: 2;
 	justify-content: center;
 	align-items: center;
@@ -153,15 +153,23 @@ body {
 .box2_1 {
 	display: inline-block;
 	margin: 35px;
-
+	
 }
 
 .box2_1_img {
 	height: 12em;
 	width: 12em;
+	border-radius:30% ;
+}
+
+.box2_1_img:hover{
+	transition: all 1s;
+	transform: scale(1.2);
 }
 
 .footer {
+	position: absolute;
+	top: 1000px;
 	width: 100%;
 	background: ghostwhite;
 	text-align: center;
