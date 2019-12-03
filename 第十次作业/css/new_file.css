@@ -251,7 +251,7 @@ body {
 	height: 1000px;
 	width: 1200px;
 	position: absolute;
-	top: 1400px;
+	top: 0px;
 	left: 50%;
 	margin-left: -600px;
 }
@@ -548,4 +548,22 @@ body {
 	-webkit-transition: all .6s;
 	-o-transition: all .6s;
 	
+}
+
+.fix{
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	right: 0;
+	top: 70%;
+	border: #666666 2px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	background: #DCDCDC;
+}
+
+.fix a{
+	text-decoration: none;
 }
