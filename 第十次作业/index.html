@@ -22,9 +22,8 @@
 			</div>
 		</div>
 		<script type="text/javascript">
-			function g(selector) {
-				return selector.substring(0, 1) == '.' ? document.getElementsByClassName(selector.substring(1)) : document.getElementById(
-					selector.substring(1));
+			function g(r) {
+				return r.substring(0, 1) == '.' ? document.getElementsByClassName(r.substring(1)) : document.getElementById(r.substring(1));
 			}
 			
 			function random(range) {
@@ -111,12 +110,9 @@
 				var photos = [];
 				for (var i = 0; i < _photo.length; i++) {
 					_photo[i].className = 'photo photo_front';
-			
 					_photo[i].style.left = '';
 					_photo[i].style.top = '';
-			
 					_photo[i].style['transform'] = _photo[i].style['-webkit-transform'] = 'scale(1.3)';
-			
 					photos.push(_photo[i]);
 				}
 				var photo_center = g('#photo_' + n);
@@ -184,7 +180,7 @@
 											<div class="TAT_left1"><img src="images/timg%20(4).jpg" alt="" width="100%" height="700px" ></div>
 											<div class="TAT_left2"><img src="images/timg%20(2).jpg" alt="" width="100%" height="700px" ></div>
 											<div class="TAT_right">
-												<div class="TAT_right_top">op歌曲</div>
+												<div class="TAT_right_top">优势</div>
 												<div class="TAT_right_txt">
 											早餐车的行业优势以及未来发展前景介绍<br>
 											   在都市的上班族对快餐业而言是一个远大的市场。快餐的口味丰富又美味，开始吸引着人们蠢蠢欲动的味蕾。早餐也不例外，都市的生活规律加快，<br>
